@@ -60,8 +60,8 @@ if (isset($_POST['operator'])) {
                                 <input type="submit" name="bagi" class="btn btn-primary" value="/">
                             </div>
                         </form>
-                        <div class="form-group">
-                            Hasilnya : <?php echo $hasil; ?>
+                        <div class="form-group font-weight-bold">
+                            Hasilnya : <?= $hasil; ?>
                         </div>
                     </div>
                 </div>
